@@ -3,7 +3,7 @@ public class MyLog {
 private static MyLog uniqueInstance;
     private LogLevel priorityLevel;
 
-    private enum LogLevel {
+    enum LogLevel {
         INFO,
         WARNING,
         ERROR
